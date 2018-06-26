@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/.idea": true,
+		"/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/.kdev4": true,
+		"/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/.vscode": true,
+		"/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Content": true,
+		"/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache": true,
+		"/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Intermediate": true,
+		"/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Saved": true
+	}
+}

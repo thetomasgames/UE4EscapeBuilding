@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="BuildingEscapeEditor">
+  <VirtualDirectory Name="BuildingEscape">
+    <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" />
+    <VirtualDirectory Name="Source">
+      <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape.Target.cs" />
+      <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscapeEditor.Target.cs" />
+      <VirtualDirectory Name="BuildingEscape">
+        <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.Build.cs" />
+        <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.cpp" />
+        <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.h" />
+        <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscapeGameModeBase.cpp" />
+        <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscapeGameModeBase.h" />
+        <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReport.cpp" />
+        <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReport.h" />
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Config">
+      <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Config/DefaultEditor.ini" />
+      <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Config/DefaultEngine.ini" />
+      <File Name="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Config/DefaultGame.ini" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game -debug" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game -debug" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/tomas/Programs/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Debug -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Debug -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Debug -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean
+mono UnrealBuildTool.exe BuildingEscapeEditor Linux Debug -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game -debug" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game -debug" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/tomas/Programs/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux DebugGame -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux DebugGame -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux DebugGame -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean
+mono UnrealBuildTool.exe BuildingEscapeEditor Linux DebugGame -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/tomas/Programs/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Development -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Development -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Development -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean
+mono UnrealBuildTool.exe BuildingEscapeEditor Linux Development -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/tomas/Programs/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Shipping -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Shipping -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Shipping -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean
+mono UnrealBuildTool.exe BuildingEscapeEditor Linux Shipping -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject&quot; -game" WorkingDirectory="/home/tomas/Programs/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/tomas/Programs/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Test -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Test -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BuildingEscapeEditor Linux Test -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -clean
+mono UnrealBuildTool.exe BuildingEscapeEditor Linux Test -project="/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>
