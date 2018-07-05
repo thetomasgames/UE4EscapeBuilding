@@ -78,3 +78,16 @@ DerivedDataCache/*
 
 # Standard Assets
 **/StarterContent/** 
+
+
+##########################
+# Unreal generated files #
+##########################
+*/Build
+*/Binaries
+*/DerivedDataCache
+*/Intermediate
+*/Saved
+BuildingEscape/Content/StarterContent/Textures
+BuildingEscape/Content/StarterContent/HDRI
+
