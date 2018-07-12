@@ -18,6 +18,9 @@ UPositionReport::UPositionReport()
 void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
+	//FString name = GetOwner()->GetName();
+	FString name = FString();
+	UE_LOG(LogTemp, Warning, TEXT("Position report here on %s"), *name);
 
 	// ...
 	

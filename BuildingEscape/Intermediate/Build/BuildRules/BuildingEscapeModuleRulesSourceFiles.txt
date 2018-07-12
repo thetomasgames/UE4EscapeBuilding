@@ -1,3 +1,3 @@
-/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.Build.cs
-/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscape.Target.cs
-/home/tomas/personal/Unreal/03_BuildingEscape/BuildingEscape/Source/BuildingEscapeEditor.Target.cs
+C:\Users\Tomas\Developer\Unreal\UE4EscapeBuilding\BuildingEscape\Source\BuildingEscape\BuildingEscape.Build.cs
+C:\Users\Tomas\Developer\Unreal\UE4EscapeBuilding\BuildingEscape\Source\BuildingEscape.Target.cs
+C:\Users\Tomas\Developer\Unreal\UE4EscapeBuilding\BuildingEscape\Source\BuildingEscapeEditor.Target.cs
